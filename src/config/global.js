@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Nombre del recurso educativo',
     Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,13 +31,33 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Generalidades del aguacate',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Origen y taxonomía',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Morfología de la planta',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Tipos y razas',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Fenología y variedades',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Normas técnicas y bioseguridad',
+            hash: 't_1_5',
           },
         ],
       },
@@ -45,14 +65,107 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Zonas de vida y clima',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Clasificación ecológica',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Requerimientos climáticos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Altitud y adaptación',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Suelos y propiedades',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Encalado y fertilización',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Planeación de la producción',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Análisis de mercado y demanda',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Ciclo productivo y sostenibilidad',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Material vegetal',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Selección genética y sanitaria',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Métodos de propagación',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Manejo del vivero',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Diseño y establecimiento del vivero',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Producción y calidad de plántulas',
+            hash: 't_5_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Instrumentos y control',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Monitoreo y medición técnica',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Registro y trazabilidad',
+            hash: 't_6_2',
+          },
+        ],
       },
     ],
     subMenu: [
