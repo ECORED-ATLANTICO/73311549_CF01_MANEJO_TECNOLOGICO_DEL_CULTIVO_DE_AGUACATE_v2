@@ -28,14 +28,21 @@
 
 .color-primario-10
   background-color: rgba($color-primario,0.1)
+.color-primario-70
+  background-color: #56681C
 .color-secundario-10
   background-color: rgba($color-secundario,0.1)
 .color-adicional-2-10
   background-color: rgba($color-adicional-2,0.1)
 .color-adicional-1-10
   background-color: rgba($color-adicional-1,0.1)
+.color-adicional-1-10.cajon:before
+  background-color: $color-adicional-1
 .color-acento-contenido-10
   background-color: rgba($color-acento-contenido,0.1)
+
+.txt-white
+  color: white
 
 // Fondos
 .bg-hojas
@@ -44,6 +51,69 @@
   background-position: right center
   @media (max-width: $bp-max-xs)
     background-image: none
+
+//Acordion
+.acordion
+  .tarjeta--color-adicional-1-10
+    background-color: rgba($color-adicional-1,0.1)
+    .acordion__accion__btn--a
+      background-color: #E1EF97
+  .tarjeta
+    padding: 0.7rem 0.7rem 0 0.7rem!important
+    .acordion__header
+      margin-bottom: 0.7rem !important
+    .acordion__contenido__item
+      padding-bottom: 0.7rem !important
+
+//Sliders
+.slyder-f
+  .tarjeta
+    background-color: rgba($color-primario,0.1)
+    // padding-top: 3.5rem !important
+    // padding-bottom: 3.5rem !important
+    h5
+      color: white
+      width: 80%
+      padding: 0.2rem 2em
+      margin: 0 auto 1rem
+
+.slyder-f.style2
+  .tarjeta
+    background: rgba($color-acento-contenido,0.2)
+  h5
+    color: #000
+    width: 100%
+
+.slyder-a
+  &__btn--sigt, &__btn--atrs
+    background-color: $color-acento-contenido
+  &__bullets
+    &__item
+      background: #F8D6BC
+      &--active
+        background: #FF964C
+        border: 0 none
+  &__tipo-b
+    margin-top: 0 !important
+
+// Boxes
+.box-icons
+  img
+    width: 100%
+    height: auto
+    position: absolute
+    &.first
+      top: -20px
+      left: 0
+      @media (max-width: $bp-max-xs)
+        top: -40px
+        left: -30px
+    &.second
+      bottom: -20px
+      right: 0
+      @media (max-width: $bp-max-xs)
+        bottom: -20px
+        right: -40px
 
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -93,3 +163,29 @@ figcaption
     position: relative
     left: 20px
     bottom: 0
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px !important
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #E8F3F1
+    &.color-secundario
+      background-color: #FEEFE8 !important
+
+  @media (min-width:1200px) and (max-width:1400px)
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
