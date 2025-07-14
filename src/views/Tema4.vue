@@ -56,7 +56,7 @@
       .col-12.col-lg-5.d-flex.mb-4.mb-lg-0
         .tarjeta.d-flex.flex-column.w-100
           img(src="@/assets/curso/temas/tema4/img_04.png", alt="alt").w-100
-          .color-primario.p-5.flex-grow-1.d-flex.flex-column
+          .bg-primario.p-5.flex-grow-1.d-flex.flex-column
             p
               b Propagación sexual (por semilla)
               | Utilizada principalmente para obtener patrones. Las semillas deben sembrarse pronto tras su extracción y mantenerse en condiciones controladas para germinar de manera uniforme. Este método no garantiza fidelidad genética, por lo que los árboles obtenidos presentan variabilidad.
