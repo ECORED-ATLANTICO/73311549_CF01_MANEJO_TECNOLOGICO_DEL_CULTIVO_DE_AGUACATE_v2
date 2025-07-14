@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+https://ecored-atlantico.github.io/73311549_CF01_MANEJO_TECNOLOGICO_DEL_CULTIVO_DE_AGUACATE_v2/#/
 
 #
 
@@ -14,14 +14,16 @@
 
 ### 3. Asegurarce que el repositorio tiene TODOS los archivos de la [BASE](https://github.com/ECORED-SENA/ECORED-BASE-2021)
 
-### 4. Revisar que el archivo package.json en la línea ``"ecored-pkg-fliz": "*.*.*"`` tenga la [última versión](https://www.npmjs.com/package/ecored-pkg-fliz)
+### 4. Revisar que el archivo package.json en la línea `"ecored-pkg-fliz": "*.*.*"` tenga la [última versión](https://www.npmjs.com/package/ecored-pkg-fliz)
 
 ### 5. Instalación de dependencias
 
 ```
 npm install
 ```
+
 #
+
 ## **Desarrollo**
 
 ### Montaje de servidor local
@@ -37,5 +39,7 @@ npm run build
 ```
 
 ### Linteo y arreglo de sintaxis de archivos
+
+```
 
 ```
