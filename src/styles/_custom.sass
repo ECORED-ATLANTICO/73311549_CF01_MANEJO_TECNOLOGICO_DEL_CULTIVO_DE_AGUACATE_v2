@@ -26,12 +26,20 @@
   100%
     transform: translateY(0px)
 
+.bg-primario
+  background-color: $color-primario
 .color-primario-10
   background-color: rgba($color-primario,0.1)
+.color-primario-20
+  background-color: rgba($color-primario,0.2)
 .color-primario-70
   background-color: #56681C
+.color-acento-contenido-20
+  background-color: #BCE1FA
 .color-secundario-10
   background-color: rgba($color-secundario,0.1)
+.color-terciario
+  background-color: #238B7A
 .color-adicional-2-10
   background-color: rgba($color-adicional-2,0.1)
 .color-adicional-1-10
@@ -44,7 +52,11 @@
 .txt-white
   color: white
 
-// Fondos
+.borde-esquinas
+  border-top-left-radius: 2rem
+  border-bottom-right-radius: 2rem
+
+// ---------------- Fondos
 .bg-hojas
   background-size: cover
   background-image: url("../assets/curso/temas/tema1/img_02.jpg")
@@ -52,7 +64,27 @@
   @media (max-width: $bp-max-xs)
     background-image: none
 
-//Acordion
+.bg-hojas-2
+  background-size: cover
+  background-image: url("../assets/curso/temas/tema2/img_21.svg")
+  background-position: right center
+  @media (max-width: $bp-max-xs)
+    background-image: none
+
+.bg-hojas-3
+  background-size: cover
+  background-image: url("../assets/curso/temas/tema5/img_22.svg")
+  background-position: right center
+  @media (max-width: $bp-max-xs)
+    background-image: none
+
+.bg-verde
+  background-size: cover
+  background-color: $color-primario
+  background-image: url("../assets/curso/temas/tema2/img_20.svg")
+  background-position: center center
+
+// ---------------- Acordion
 .acordion
   .tarjeta--color-adicional-1-10
     background-color: rgba($color-adicional-1,0.1)
@@ -65,7 +97,7 @@
     .acordion__contenido__item
       padding-bottom: 0.7rem !important
 
-//Sliders
+// ---------------- Sliders
 .slyder-f
   .tarjeta
     background-color: rgba($color-primario,0.1)
@@ -96,7 +128,11 @@
   &__tipo-b
     margin-top: 0 !important
 
-// Boxes
+.morebullets
+  .slyder-a__bullets__item
+    margin: 0 5px
+
+// ---------------- Boxes
 .box-icons
   img
     width: 100%
@@ -114,6 +150,44 @@
       @media (max-width: $bp-max-xs)
         bottom: -20px
         right: -40px
+
+// -------------- Tablas
+.tabla-a table
+  min-width: auto
+  width: auto
+.tabla-verde
+  td
+    border-color: #000
+  thead
+    background-color: #DEECAF
+    border-top: 5px solid #59B4F1
+    th
+      border-color: #000
+
+// -------------- Tabs
+.tabs-b
+  &__tab
+    background-color: #E8F3F1
+    &:hover
+      background-color: #ddece9
+    &--active, &--active:hover
+      background-color: white
+
+.tabs-a
+  &__content-item,  .tarjeta
+    height: 100%
+  .tarjeta
+    align-items: center
+    display: flex
+  &__tab
+    background-color: $color-primario
+    &__selected
+      background-color: #56681C !important
+      color: white!important
+    &::before
+      background-color: #56681C !important
+
+// -------------- Banner
 
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -174,7 +248,11 @@ figcaption
     .crd_hover_txt--body
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
       transform: translateY(0)
-
+  &.color-primario
+    .crd_hover_txt--body
+      background-color: #0B481E
+      h5, p
+        color: #fff
   .crd_hover_txt--body
     position: absolute
     padding: 1.5rem
@@ -189,3 +267,17 @@ figcaption
     .crd_hover_txt--body
       p
         font-size: 0.85em
+
+// ------------------ Pasos
+.pasos-a__circle
+  background-color: #FFCA00
+
+// ------------------ Listas
+
+.bullets
+  li
+    padding-left: 1rem
+    margin-bottom: 0.2rem
+
+    background: url("../assets/curso/temas/tema6/img_16.svg") no-repeat
+    background-position: 0px 7px

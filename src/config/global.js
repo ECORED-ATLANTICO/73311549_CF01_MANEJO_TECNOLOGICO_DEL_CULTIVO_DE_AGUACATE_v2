@@ -199,7 +199,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF01_73311549_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -215,22 +215,131 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Generalidades del cultivo de aguacate',
+      referencia:
+        'Corporación Colombiana de Investigación Agropecuaria (AGROSAVIA). (2020). Actualización tecnológica y buenas prácticas agrícolas en el cultivo de aguacate Hass.',
+      tipo: 'PDF',
+      link:
+        'https://www.avocadosource.com/books/BernalyDiaz2020.pdf?utm_source=chatgpt.com',
+    },
+    {
+      tema: 'Manejo tecnológico del cultivo de aguacate',
+      referencia:
+        'AGROSAVIA. (2023). Cultivo de aguacate: Prácticas y recomendaciones de manejo integrado.',
+      tipo: 'Artículo técnico PDF',
+      link:
+        'https://www.agrosavia.co/media/ia1pqoyi/digital_informe-asamblea-2024.pdf?utm_source=chatgpt.com',
+    },
+    {
+      tema: 'Siembra en campo de aguacate',
+      referencia:
+        'Agrovisión. (2023, septiembre 19). ¿Cómo sembrar aguacate en terreno plano? [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Wlz9mD6Anco',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Acuicultura',
+      significado:
+        'Práctica agrícola que influye en el entorno del cultivo, especialmente en zonas de vida próximas a cuerpos de agua; aunque no es directa al aguacate, puede afectar condiciones agroclimáticas.',
+    },
+    {
+      termino: 'Altitud',
+      significado:
+        'Altura sobre el nivel del mar que define el piso térmico y determina la raza y variedad de aguacate más adecuada.',
+    },
+    {
+      termino: 'BPA (Buenas Prácticas Agrícolas)',
+      significado:
+        'Conjunto de acciones orientadas a asegurar la sostenibilidad, inocuidad y trazabilidad en la producción agrícola.',
+    },
+    {
+      termino: 'Cambium',
+      significado:
+        'Tejido vegetal clave para la unión exitosa entre patrón e injerto en la propagación asexual.',
+    },
+    {
+      termino: 'Dicogamia protógina',
+      significado:
+        'Práctica para corregir la acidez del suelo mediante la aplicación de cal, mejorando la disponibilidad de nutrientes',
+    },
+    {
+      termino: 'Fenología',
+      significado:
+        'Estudio de las fases de desarrollo del cultivo, desde brotación hasta madurez, útil para planificar prácticas agronómicas.',
+    },
+    {
+      termino: 'Injertación',
+      significado:
+        'Técnica de propagación asexual que une un patrón con una variedad deseada para preservar características genéticas y mejorar producción.',
+    },
+    {
+      termino: '<em>Lauraceae</em>',
+      significado:
+        'Familia botánica a la que pertenece el aguacate, caracterizada por especies leñosas con aceites esenciales.',
+    },
+    {
+      termino: 'Micorrizas',
+      significado:
+        'Hongos benéficos que se asocian con las raíces, mejorando la absorción de nutrientes y la sanidad del cultivo.',
+    },
+    {
+      termino: 'NTC 5209',
+      significado:
+        'Norma Técnica Colombiana que regula los requisitos de calidad, empaque y comercialización del aguacate en fresco.',
+    },
+    {
+      termino: 'Persea americana',
+      significado:
+        'Nombre científico del aguacate, especie domesticada por su fruto comestible de alto valor nutricional.',
+    },
+    {
+      termino: '<em>Phytophthora cinnamomi </em>',
+      significado:
+        'Método de reproducción mediante semillas que no garantiza fidelidad genética pero se usa para obtener patrones.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'Registro sistemático que permite seguir el proceso productivo del aguacate desde la semilla hasta el campo, garantizando calidad y cumplimiento normativo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'AGROSAVIA. (2020). <em>Actualización tecnológica y buenas prácticas agrícolas en el cultivo de aguacate Hass. Corporación Colombiana de Investigación Agropecuaria.</em>',
+      link:
+        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/37613/AGROSAVIA_AGUACATE_BPA.pdf',
+    },
+    {
+      referencia:
+        'AGROSAVIA. (2023). <em>Manejo integrado de plagas de importancia económica y cuarentenaria del cultivo de aguacate. Corporación Colombiana de Investigación Agropecuaria.</em>',
       link: '',
+    },
+    {
+      referencia:
+        'AGROSAVIA. (s. f.). <em>Ecofisiología del aguacate cv. Hass en el trópico andino colombiano. Corporación Colombiana de Investigación Agropecuaria.</em>',
+      link:
+        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/37720/AGUACATE_PLAGAS_AGROSAVIA.pdf',
+    },
+    {
+      referencia:
+        'FAO. (2023). <em>Ripe for change: adapting avocado production to a changing climate. FAO.</em>',
+      link:
+        'https://openknowledge.fao.org/server/api/core/bitstreams/c1062d72-ae62-43b1-97ae-aab32c75cadf/content',
+    },
+    {
+      referencia:
+        'Ministerio de Agricultura y Desarrollo Rural. (2021). <em>Paquete tecnológico del cultivo de aguacate Hass. SiOC – Sistema de Información de la Cadena.</em>',
+      link:
+        'https://sioc.minagricultura.gov.co/Aguacate/Normatividad/Paquete%20Tecnologico%20Aguacate.pdf',
+    },
+    {
+      referencia:
+        'CCOA & Asproagricol. (2023). <em>Cartilla técnica: Producción y comercialización del aguacate. Consejo Coordinador de Organizaciones Agrarias.</em>',
+      link:
+        'https://ccoa.org.co/wp-content/uploads/2023/02/Cartilla-aguacate-2.pdf',
     },
   ],
   creditos: [
@@ -238,14 +347,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -253,9 +363,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Paola Andrea Bobadilla Gutiérrez',
+          cargo: 'Guionista línea de producción',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Heydy Cristina González García',
+          cargo: 'Evaluadora instruccional ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Jair Coll',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -263,19 +383,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Andrés Felipe Herrera',
+          cargo: 'Diseñador <em>web</em>',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Álvaro Guillermo Araújo Angarita',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -283,14 +403,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'María Fernanda Morales Angulo',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adie Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },

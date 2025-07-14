@@ -17,40 +17,38 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Estrategia de producción y propagación del aguacate.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Desarrollar e implementar una estrategia integral de producción y propagación del aguacate que optimice la calidad de los materiales de siembra, maximice la productividad y promueva prácticas sostenibles, asegurando así el éxito del cultivo a largo plazo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es el clima ideal para el cultivo del aguacate?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Frío extremo',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Templado',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Cálido y húmedo',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Desértico',
               esCorrecta: false,
             },
           ],
@@ -59,29 +57,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: '¿Qué tipo de suelo es más adecuado para el aguacate?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Arenoso',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Arcilloso',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Franco areno',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Suelo salino',
               esCorrecta: false,
             },
           ],
@@ -90,30 +87,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: '¿Cuál es la distancia recomendada entre plantas de aguacate?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: '1 metro',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+              texto: '3 a 6 metros',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: '10 metros',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: '15 metros',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -122,28 +118,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Qué factor es crucial en la selección de patrones para el aguacate?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Color de la fruta',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Tolerancia a enfermedades',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Tamaño del árbol',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Forma de las hojas',
               esCorrecta: false,
             },
           ],
@@ -152,30 +148,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: '¿Cuál es la principal forma de propagación del aguacate?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+              texto: 'Semilla',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Acodo',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
+              texto: 'Injerto',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Esqueje',
               esCorrecta: false,
             },
           ],
@@ -185,28 +179,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué debe hacerse antes de sembrar semillas de aguacate en el vivero?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Pintarlas',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Desinfectarlas',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Congelarlas',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Cocinarlas',
               esCorrecta: false,
             },
           ],
@@ -216,28 +210,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Cuál es la duración promedio de un aguacate desde la siembra hasta la cosecha?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: '1 año',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: '3 años',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: '5 años',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: '7 años',
               esCorrecta: false,
             },
           ],
@@ -247,28 +241,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Qué característica de la flor del aguacate ayuda a evitar la autofecundación?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Color',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Tamaño',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Protoginia',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Fragancia',
               esCorrecta: false,
             },
           ],
@@ -278,18 +272,28 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Qué se debe hacer con la semilla de aguacate después de extraerla del fruto?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Secarlas',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Cocinarlas',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Meterla en agua',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Ponerla en sol',
               esCorrecta: true,
             },
           ],
@@ -299,18 +303,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            '¿Cuál es el principal desafío en el manejo de vivero para aguacate?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Riego',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Control de plagas',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Selección de semillas',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Fertilización',
               esCorrecta: false,
             },
           ],
@@ -320,19 +334,29 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Cuánto tiempo puede almacenarse una semilla de aguacate sin afectar su germinación?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: '1 semana',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '2 semanas',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '1 mes',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '2 meses',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -341,18 +365,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué tipo de fertilizante se recomienda para el aguacate en el vivero?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Solo orgánico',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Solo químico',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Orgánico y químico',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Ninguno',
               esCorrecta: false,
             },
           ],
@@ -362,18 +396,28 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            '¿En qué fase del crecimiento del aguacate se realiza la poda?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Al inicio',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Durante la floración',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'En el crecimiento vegetativo',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'En la cosecha',
               esCorrecta: false,
             },
           ],
@@ -383,19 +427,29 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué tipo de riego es más efectivo para el cultivo de aguacate?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Riego por goteo',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Riego aspersión',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Riego manual',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Riego a surcos',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -404,18 +458,181 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Cuál es el tamaño ideal del contenedor para iniciar el cultivo de aguacate en vivero?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: '1 litro',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '3 a 5 litros',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '10 litros',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '20 litros',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué aspecto de la planta de aguacate debe ser monitoreado para evitar plagas?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Color de las hojas',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Tamaño del tronco',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Estado del sustrato',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Altura de la planta',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál es el principal beneficio de utilizar injertos en el aguacate?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Acelera el crecimiento',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mejora la calidad de la fruta',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aumenta la resistencia a enfermedades',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reduce el tamaño del árbol',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué se debe evitar al manejar las yemas para injerto?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Exposición a la luz',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Exposición a la humedad',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Contacto con el aire',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Uso de herramientas limpias',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué color pueden tener las flores del aguacate?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo blanco',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solo rojo',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Variados (crema, amarillo, verde, café)',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Solo azul',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es la importancia de la selección del material vegetal en el cultivo de aguacate?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumenta el costo',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mejora la estética',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Asegura mejor producción y calidad',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reduce el tiempo de cosecha',
               esCorrecta: false,
             },
           ],
