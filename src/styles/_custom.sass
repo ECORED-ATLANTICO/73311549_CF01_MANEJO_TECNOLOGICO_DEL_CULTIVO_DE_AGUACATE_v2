@@ -60,6 +60,12 @@
   border-top-left-radius: 2rem
   border-bottom-right-radius: 2rem
 
+.content-left
+  padding-left: 70px
+
+.text-left
+  text-align: left
+
 // ---------------- Fondos
 .bg-hojas
   background-size: cover
@@ -87,6 +93,14 @@
   background-color: $color-primario
   background-image: url("../assets/curso/temas/tema2/img_20.svg")
   background-position: center center
+
+.bg_content
+  background-size: cover
+  background-image: url("../assets/curso/temas/bg_01.png")
+  background-repeat: no-repeat
+  background-position: top center
+  margin: 0 -3em
+  padding: 0 3rem
 
 // ---------------- Acordion
 .acordion
@@ -133,8 +147,13 @@
     margin-top: 0 !important
 
 .morebullets
+  .slyder-a__btn
+    @media (max-width: $bp-max-xs)
+      &--sigt, &--atrs
+        height: 30px
+        width: 30px
   .slyder-a__bullets__item
-    margin: 0 5px
+    margin: 0 3px
 
 // ---------------- Boxes
 .box-icons
@@ -176,6 +195,8 @@
       background-color: #ddece9
     &--active, &--active:hover
       background-color: white
+  &__content-item
+    background-color: rgba($color-acento-contenido,0.1)
 
 .tabs-a
   &__content-item,  .tarjeta
@@ -259,7 +280,7 @@ figcaption
         color: #fff
   .crd_hover_txt--body
     position: absolute
-    padding: 1.5rem
+    padding: 1.5em 0.75rem
     bottom: 0
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))

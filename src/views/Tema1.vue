@@ -36,25 +36,30 @@
       .col-lg-7
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-1-10")
           .row(titulo="Clase")
-            p 
-              b Magnoliopsida (Dicotiledóneas)
-            p El aguacate pertenece al grupo de plantas que se desarrollan a partir de semillas con dos cotiledones. Esto se refleja en su estructura: hojas anchas con nervaduras ramificadas, flores completas y frutos desarrollados con una sola semilla central. 
+            .content-left
+              p 
+                b Magnoliopsida (Dicotiledóneas)
+              p El aguacate pertenece al grupo de plantas que se desarrollan a partir de semillas con dos cotiledones. Esto se refleja en su estructura: hojas anchas con nervaduras ramificadas, flores completas y frutos desarrollados con una sola semilla central. 
           .row(titulo="Orden")
-            p 
-              b Laurales
-            p El aguacate forma parte de la familia del laurel, conocida por la presencia de aceites esenciales. Esta familia se distingue por plantas perennes, de follaje denso, flores discretas y gran diversidad ecológica.
+            .content-left
+              p 
+                b Laurales
+              p El aguacate forma parte de la familia del laurel, conocida por la presencia de aceites esenciales. Esta familia se distingue por plantas perennes, de follaje denso, flores discretas y gran diversidad ecológica.
           .row(titulo="Familia")
-            p 
-              b Lauraceae
-            p El aguacate forma parte de la familia del laurel, conocida por la presencia de aceites esenciales. Esta familia se distingue por plantas perennes, de follaje denso, flores discretas y gran diversidad ecológica.
+            .content-left
+              p 
+                b Lauraceae
+              p El aguacate forma parte de la familia del laurel, conocida por la presencia de aceites esenciales. Esta familia se distingue por plantas perennes, de follaje denso, flores discretas y gran diversidad ecológica.
           .row(titulo="Género")
-            p 
-              b Persea
-            p Dentro de este género, el aguacate se relaciona con más de 150 especies tropicales, aunque solo unas pocas son aptas para el consumo humano. Persea se caracteriza por sus frutos grandes con semilla única y alto contenido de lípidos.
+            .content-left
+              p 
+                b Persea
+              p Dentro de este género, el aguacate se relaciona con más de 150 especies tropicales, aunque solo unas pocas son aptas para el consumo humano. Persea se caracteriza por sus frutos grandes con semilla única y alto contenido de lípidos.
           .row(titulo="Especie")
-            p 
-              b Persea americana Mill
-            p Es la especie domesticada y cultivada por su fruto comestible, cuya pulpa suave, cremosa y rica en grasas saludables lo hace altamente valorado en la alimentación humana y la industria agroalimentaria.
+            .content-left
+              p 
+                b Persea americana Mill
+              p Es la especie domesticada y cultivada por su fruto comestible, cuya pulpa suave, cremosa y rica en grasas saludables lo hace altamente valorado en la alimentación humana y la industria agroalimentaria.
          
     separador
 
@@ -272,7 +277,7 @@
             h5.mb-3 Desinfección de herramientas
             p.mb-2 Limpiar y desinfectar frecuentemente mesas, bandejas, tijeras y utensilios para evitar la propagación de enfermedades entre lotes.
 
-      .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+      .col-xl-3.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -282,7 +287,7 @@
               i Trichoderma	
             p.mb-2 Incorporar microorganismos benéficos en el sustrato para proteger las raíces y mejorar la absorción de nutrientes.
       
-      .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+      .col-xl-3.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure

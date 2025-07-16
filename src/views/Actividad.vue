@@ -58,7 +58,7 @@ export default {
         {
           id: 2,
           texto: '¿Qué tipo de suelo es más adecuado para el aguacate?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -88,7 +88,7 @@ export default {
         {
           id: 3,
           texto: '¿Cuál es la distancia recomendada entre plantas de aguacate?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -119,7 +119,7 @@ export default {
           id: 4,
           texto:
             '¿Qué factor es crucial en la selección de patrones para el aguacate?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -149,7 +149,7 @@ export default {
         {
           id: 5,
           texto: '¿Cuál es la principal forma de propagación del aguacate?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -180,7 +180,7 @@ export default {
           id: 6,
           texto:
             '¿Qué debe hacerse antes de sembrar semillas de aguacate en el vivero?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -242,7 +242,7 @@ export default {
           id: 8,
           texto:
             '¿Qué característica de la flor del aguacate ayuda a evitar la autofecundación?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -273,7 +273,7 @@ export default {
           id: 9,
           texto:
             '¿Qué se debe hacer con la semilla de aguacate después de extraerla del fruto?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -304,7 +304,7 @@ export default {
           id: 10,
           texto:
             '¿Cuál es el principal desafío en el manejo de vivero para aguacate?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -335,7 +335,7 @@ export default {
           id: 11,
           texto:
             '¿Cuánto tiempo puede almacenarse una semilla de aguacate sin afectar su germinación?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -366,7 +366,7 @@ export default {
           id: 12,
           texto:
             '¿Qué tipo de fertilizante se recomienda para el aguacate en el vivero?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -397,7 +397,7 @@ export default {
           id: 13,
           texto:
             '¿En qué fase del crecimiento del aguacate se realiza la poda?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -459,7 +459,7 @@ export default {
           id: 15,
           texto:
             '¿Cuál es el tamaño ideal del contenedor para iniciar el cultivo de aguacate en vivero?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -490,7 +490,7 @@ export default {
           id: 16,
           texto:
             '¿Qué aspecto de la planta de aguacate debe ser monitoreado para evitar plagas?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -521,7 +521,7 @@ export default {
           id: 17,
           texto:
             '¿Cuál es el principal beneficio de utilizar injertos en el aguacate?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -551,7 +551,7 @@ export default {
         {
           id: 18,
           texto: '¿Qué se debe evitar al manejar las yemas para injerto?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -612,7 +612,7 @@ export default {
           id: 20,
           texto:
             '¿Cuál es la importancia de la selección del material vegetal en el cultivo de aguacate?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {

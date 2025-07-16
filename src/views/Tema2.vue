@@ -67,16 +67,17 @@
                 td Frío húmedo 
                 td Óptimo para Hass y fuerte.
                  
-    .cajon.color-adicional-1-10.p-4.mb-5
+    .cajon.color-adicional-1-10.p-4.mb-3
       p.mb-0 La taxonomía del aguacate permite identificarlo como una planta frutal de origen tropical, perteneciente a un grupo de árboles perennes con hojas simples, flores pequeñas y frutos con una sola semilla. Su clasificación científica agrupa al aguacate en los siguientes niveles:
 
+    separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_2_2 2.2 Requerimientos climáticos
 
     p.mb-5 El aguacate es una especie frutal altamente influenciada por el clima. Su crecimiento, floración, cuajado del fruto y calidad final dependen en gran medida de variables como la temperatura, la precipitación y la humedad relativa. Un clima inadecuado puede generar estrés fisiológico, baja productividad, caída de flores o mayor susceptibilidad a enfermedades. Las condiciones óptimas son:
     
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-3
       .py-4.py-md-5(titulo="Encuesta de <em>Net Promoter Score</em> (NPS)" :icono="require('@/assets/curso/temas/tema2/img_03.svg')")
         .row.px-4.align-items-center
           .col-1
@@ -117,7 +118,7 @@
               img(src='@/assets/curso/temas/tema2/img_08.png', alt='Imagen decorativa')
           .col-1
 
-
+    separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_2_3 2.3 Altitud y adaptación
@@ -131,20 +132,21 @@
       
 
     .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
-      .col-lg-10.mb-4
+      .col-lg-10
         .titulo-sexto.mb-4.color-acento-contenido
           h5 Figura 1. 
           span Adaptación de las razas de aguacate según altitud 
 
-        figure.mb-4
-          figure.mb-3
-            img(src='@/assets/curso/temas/tema2/img_10.svg', alt='La figura muestra las condiciones de altitud y clima ideales para el cultivo de las principales razas de aguacate: mexicana, guatemalteca y antillana.').mx-auto.d-none.d-lg-block
-            img(src='@/assets/curso/temas/tema2/img_10m.svg', alt='La figura muestra las condiciones de altitud y clima ideales para el cultivo de las principales razas de aguacate: mexicana, guatemalteca y antillana.').mx-auto.d-block.d-lg-none
+
+        figure.mb-3
+          img(src='@/assets/curso/temas/tema2/img_10.svg', alt='La figura muestra las condiciones de altitud y clima ideales para el cultivo de las principales razas de aguacate: mexicana, guatemalteca y antillana.').mx-auto.d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema2/img_10m.svg', alt='La figura muestra las condiciones de altitud y clima ideales para el cultivo de las principales razas de aguacate: mexicana, guatemalteca y antillana.').mx-auto.d-block.d-lg-none
 
           figcaption 
             b Fuente: 
             |  SENA, 2025.
 
+    separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_2_4 2.4 Suelos y propiedades
@@ -175,7 +177,7 @@
             h5.mb-3 Profundidad
             p.mb-2 Al menos 1 metro, para favorecer una adecuada expansión radicular.
 
-      .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+      .col-xl-3.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").color-primario
           .crd_hover_txt--img
             figure
@@ -184,7 +186,7 @@
             h5.mb-3 pH ideal
             p.mb-2 Entre 5.5 y 6.5. Valores inferiores a 5.5 pueden generar toxicidad por aluminio y limitar la disponibilidad de fósforo.
       
-      .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+      .col-xl-3.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").color-primario
           .crd_hover_txt--img
             figure
@@ -218,27 +220,28 @@
       .col-12.col-lg-11
         p.mb-0 Para lograr un desarrollo vigoroso del cultivo de aguacate y obtener frutos de alta calidad, es fundamental garantizar una nutrición balanceada desde la etapa de vivero hasta la producción en campo. Esto implica corregir posibles deficiencias del suelo mediante el encalado y aplicar fertilizantes de manera racional, de acuerdo con los resultados del análisis de suelos.
 
-    .row.mb-2.align-items-stretch.mb-5.d-flex
-      .col-1
-      .col-12.col-lg-5.d-flex.mb-4.mb-lg-0
-        .tarjeta.d-flex.flex-column.w-100
-          img(src="@/assets/curso/temas/tema2/img_17.png", alt="alt").w-100
-          .color-primario-20.p-5.flex-grow-1.d-flex
-            p.mb-0 El encalado es una práctica correctiva que consiste en aplicar materiales como cal dolomita para elevar el pH del suelo, especialmente cuando se encuentra por debajo de 5.5. Esta corrección es esencial para mejorar la disponibilidad de fósforo, calcio y otros nutrientes, así como para estimular la actividad biológica del suelo.
-      .col-12.col-lg-5.d-flex.mb-4.mb-lg-0
-        .tarjeta.d-flex.flex-column.w-100
-          img(src="@/assets/curso/temas/tema2/img_18.png", alt="alt").w-100
-          .color-primario-20.p-5.flex-grow-1.d-flex
-            p.mb-0 La fertilización del aguacate consiste en suministrar al cultivo los nutrientes esenciales que necesita para crecer de forma saludable, desarrollarse adecuadamente y producir frutos de calidad, en las cantidades y momentos adecuados. Es un proceso técnico que debe adaptarse a la edad del árbol, el estado fenológico, las características del suelo y las condiciones climáticas del lugar.
-      .col-1
+    .bg_content
+      .row.mb-2.align-items-stretch.mb-5.d-flex
+        .col-1
+        .col-12.col-lg-5.d-flex.mb-4.mb-lg-0
+          .tarjeta.d-flex.flex-column.w-100.color-primario-20
+            img(src="@/assets/curso/temas/tema2/img_17.png", alt="alt").w-100
+            .p-5.flex-grow-1.d-flex
+              p.mb-0 El encalado es una práctica correctiva que consiste en aplicar materiales como cal dolomita para elevar el pH del suelo, especialmente cuando se encuentra por debajo de 5.5. Esta corrección es esencial para mejorar la disponibilidad de fósforo, calcio y otros nutrientes, así como para estimular la actividad biológica del suelo.
+        .col-12.col-lg-5.d-flex.mb-4.mb-lg-0
+          .tarjeta.d-flex.flex-column.w-100.color-primario-20
+            img(src="@/assets/curso/temas/tema2/img_18.png", alt="alt").w-100
+            .p-5.flex-grow-1.d-flex
+              p.mb-0 La fertilización del aguacate consiste en suministrar al cultivo los nutrientes esenciales que necesita para crecer de forma saludable, desarrollarse adecuadamente y producir frutos de calidad, en las cantidades y momentos adecuados. Es un proceso técnico que debe adaptarse a la edad del árbol, el estado fenológico, las características del suelo y las condiciones climáticas del lugar.
+        .col-1
 
-    .color-principal.bg-verde.mb-2.borde-esquinas
-      .row.align-items-center
-        .col-12.col-lg-2
-          figure
-            img(src='@/assets/curso/temas/tema2/img_19.png', alt='Imagen decorativa').w-auto.mx-auto
-        .col-12.col-lg-10.p-5
-          p.mb-0 El aguacate requiere una adecuada disponibilidad de macronutrientes como nitrógeno (N), fósforo (P) y potasio (K), así como micronutrientes esenciales como zinc (Zn), boro (B) y hierro (Fe), indispensables para el crecimiento, la floración y el cuajado de frutos. La aplicación complementaria de microorganismos benéficos, como Trichoderma y micorrizas, mejora la absorción de nutrientes y refuerza la salud del sistema radicular
+      .color-principal.bg-verde.mb-2.borde-esquinas
+        .row.align-items-center
+          .col-12.col-lg-2
+            figure
+              img(src='@/assets/curso/temas/tema2/img_19.png', alt='Imagen decorativa').w-auto.mx-auto
+          .col-12.col-lg-10.p-5
+            p.mb-0 El aguacate requiere una adecuada disponibilidad de macronutrientes como nitrógeno (N), fósforo (P) y potasio (K), así como micronutrientes esenciales como zinc (Zn), boro (B) y hierro (Fe), indispensables para el crecimiento, la floración y el cuajado de frutos. La aplicación complementaria de microorganismos benéficos, como Trichoderma y micorrizas, mejora la absorción de nutrientes y refuerza la salud del sistema radicular
     
 
 

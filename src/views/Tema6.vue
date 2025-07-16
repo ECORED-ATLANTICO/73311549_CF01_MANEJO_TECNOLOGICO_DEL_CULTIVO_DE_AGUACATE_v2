@@ -8,14 +8,15 @@
       h1 Instrumentos y control
 
 
-    .color-adicional-1-10.box-icons.position-relative.mb-5.bg-hojas-2
+    .color-adicional-1-10.box-icons.position-relative.mb-3.bg-hojas-2
       .row.align-items-center
         .col-5.col-md-2.mx-auto.mx-lg-0
           img(src="@/assets/curso/temas/tema6/img_01.png", alt="alt").w-auto.position-relative
-        .col-12.col-md-9.p-3
+        .col-12.col-md-9.p-4
           p.mb-0 El uso de instrumentos adecuados y el control riguroso de variables en el vivero son fundamentales para garantizar la calidad del material vegetal. A través del monitoreo técnico y la medición de condiciones ambientales, junto con el registro sistemático de cada etapa del proceso, se logra mantener la trazabilidad, optimizar recursos y prevenir desviaciones que afecten la sanidad y el desarrollo de las plántulas.
         img(src="@/assets/curso/temas/tema5/img_21.png", alt="alt").w-auto.second
 
+    separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_6_1 6.1 Monitoreo y medición técnica
@@ -81,25 +82,19 @@
       .col-lg-7
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-1-10")
           .row(titulo="Termohigrómetro")
-            .col-1
-            .col-12.col-lg-10
+            .content-left
               p Instrumento que permite medir simultáneamente la temperatura y la humedad relativa del ambiente en el vivero. Ayuda a detectar condiciones extremas que podrían alterar la germinación, el prendimiento del injerto o generar estrés fisiológico en las plántulas. Se recomienda colocarlo a la altura media de las plantas, alejado de corrientes de aire directo.
-            .col-1
           .row(titulo="Sensor de humedad del sustrato").align-items-center
-            .col-1
-            .col-12.col-lg-10
+            .content-left
               p Dispositivo que evalúa el nivel de humedad directamente en el sustrato donde crecen las plantas. Su lectura permite ajustar el riego y evitar tanto el déficit como el exceso de agua, previniendo enfermedades como la pudrición radicular. Existen modelos manuales y digitales, con pantallas de lectura o conectividad a apps móviles.
           .row(titulo="Medidor de pH digital").align-items-center
-            .col-1
-            .col-12.col-lg-10
+            .content-left
               p Herramienta indispensable para verificar la acidez o alcalinidad del sustrato. El rango óptimo para el aguacate está entre 5.5 y 6.5. Niveles fuera de este margen pueden bloquear nutrientes y afectar el desarrollo radicular. El medidor requiere calibración frecuente con soluciones buffer para asegurar exactitud.
           .row(titulo="Luxómetro").align-items-center
-            .col-1
-            .col-12.col-lg-10
+            .content-left
               p Mide la intensidad de la luz solar o artificial en el entorno del vivero. Es útil para determinar si la cantidad de luminosidad es adecuada para la etapa vegetativa de las plántulas. El aguacate necesita entre 1.500 y 2.000 lx en vivero. Si la intensidad es demasiado alta, se recomienda instalar mallas de sombra.
           .row(titulo="Pluviómetro").align-items-center
-            .col-1
-            .col-12.col-lg-10
+            .content-left
               p Utilizado principalmente en viveros a cielo abierto, permite conocer la cantidad de lluvia caída durante un periodo determinado. Esta información es esencial para ajustar los riegos y prevenir encharcamientos. Debe vaciarse después de cada medición y ubicarse en un lugar sin interferencias.
 
     .color-primario-10.p-4.box-icons.position-relative.mb-3

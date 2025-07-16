@@ -13,12 +13,12 @@
           figure
             img(src='@/assets/curso/temas/tema3/img_01.png', alt='Imagen decorativa').w-auto.mx-auto
         .col-12.col-lg-9
-          p.mb-0 La producción del aguacate está estrechamente ligada a las condiciones ecológicas y climáticas del entorno, ya que influyen directamente en el desarrollo de la planta, la calidad del fruto y el rendimiento del cultivo. Comprender la clasificación ecológica, los requerimientos climáticos, la altitud óptima, las características del suelo y las prácticas de fertilización es clave para seleccionar adecuadamente las zonas de cultivo. Estos factores permiten adaptar las variedades a cada región, mejorar la eficiencia agronómica y garantizar una producción sostenible en el tiempo.
+          p.mb-0 La planeación de la producción en el cultivo de aguacate es un proceso estratégico que combina el conocimiento del entorno comercial con el manejo técnico del cultivo. Para alcanzar la rentabilidad y sostenibilidad del proyecto, es fundamental analizar previamente la demanda del mercado y los requerimientos de los consumidores, así como definir un ciclo productivo eficiente que se adapte a las condiciones agroecológicas y climáticas de la zona. Esta planificación permite tomar decisiones informadas sobre qué variedad sembrar, cuándo sembrar y cómo cumplir con los estándares exigidos, integrando prácticas sostenibles que aseguren la viabilidad económica, ambiental y social del cultivo a largo plazo.
     
     separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_2_1 3.1 Análisis de mercado y demanda
+      h2#t_3_1 3.1 Análisis de mercado y demanda
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       .col-lg-4.col-md-12.mb-4

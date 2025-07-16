@@ -228,16 +228,14 @@ export default {
       referencia:
         'Corporación Colombiana de Investigación Agropecuaria (AGROSAVIA). (2020). Actualización tecnológica y buenas prácticas agrícolas en el cultivo de aguacate Hass.',
       tipo: 'PDF',
-      link:
-        'https://www.avocadosource.com/books/BernalyDiaz2020.pdf?utm_source=chatgpt.com',
+      link: 'downloads/BernalyDiaz2020.pdf',
     },
     {
       tema: 'Manejo tecnológico del cultivo de aguacate',
       referencia:
         'AGROSAVIA. (2023). Cultivo de aguacate: Prácticas y recomendaciones de manejo integrado.',
       tipo: 'Artículo técnico PDF',
-      link:
-        'https://www.agrosavia.co/media/ia1pqoyi/digital_informe-asamblea-2024.pdf?utm_source=chatgpt.com',
+      link: 'downloads/digital_informe-asamblea-2024.pdf',
     },
     {
       tema: 'Siembra en campo de aguacate',
