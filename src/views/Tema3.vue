@@ -9,10 +9,10 @@
 
     .color-adicional-1-10.bg-hojas.tarjeta.mb-2.p-3
       .row.align-items-center
-        .col-12.col-lg-2
+        .col-12.col-lg-4
           figure
             img(src='@/assets/curso/temas/tema3/img_01.png', alt='Imagen decorativa').w-auto.mx-auto
-        .col-12.col-lg-9
+        .col-12.col-lg-7
           p.mb-0 La planeación de la producción en el cultivo de aguacate es un proceso estratégico que combina el conocimiento del entorno comercial con el manejo técnico del cultivo. Para alcanzar la rentabilidad y sostenibilidad del proyecto, es fundamental analizar previamente la demanda del mercado y los requerimientos de los consumidores, así como definir un ciclo productivo eficiente que se adapte a las condiciones agroecológicas y climáticas de la zona. Esta planificación permite tomar decisiones informadas sobre qué variedad sembrar, cuándo sembrar y cómo cumplir con los estándares exigidos, integrando prácticas sostenibles que aseguren la viabilidad económica, ambiental y social del cultivo a largo plazo.
     
     separador

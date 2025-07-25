@@ -77,10 +77,10 @@
                 p Elaborar una mezcla aireada, rica en materia orgánica (por ejemplo, tierra negra + cascarilla + compost), desinfectada previamente con calor o productos autorizados.
 
             .row.align-items-center.mx-auto
-              .col-12.col-md-6.col-lg-5.mx-auto
+              .col-12.col-md-6.col-lg-5.order-2.order-lg-1.mx-auto
                 figure
                   img(src="@/assets/curso/temas/tema5/img_12.png", alt="alt").mx-auto.mb-4.mb-lg-0
-              .col-12.col-md-12.col-lg-6.mb-md-0.mx-auto
+              .col-12.col-md-12.col-lg-6.order-1.order-lg-2.mb-md-0.mx-auto
                 h4
                   b Paso 6. Llenado de bolsas y distribución
                 p Utilizar bolsas plásticas de 40–45 cm de altura y mínimo 20 cm de diámetro. Llenarlas uniformemente con el sustrato, y ubicarlas sobre las camas dejando pasillos para el acceso.
@@ -105,49 +105,47 @@
       .row.mb-5
         .col-12.col-lg-10.mx-auto
           PasosA.mb-5(tipo="n")
-            .row.align-items-center.flex-column-reverse
-              .col-md-6.mb-4.mb-md-0
+            .row.align-items-center
+              .col-md-6.order-2.order-md-1
                 h4 Siembra
                 p.mb-0 Se inicia con la colocación de semillas desinfectadas y frescas (no mayores a 3 semanas) en bolsas de polietileno de 40–45 cm de alto y 20 cm de diámetro. La semilla se ubica verticalmente, con el extremo basal hacia abajo, a una profundidad de 2 a 5 cm, sobre un sustrato suelto, aireado, rico en materia orgánica y previamente desinfectado.
-              .col-md-6
+              .col-md-6.order-1.order-md-2.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/tema5/img_10.png', alt='Texto que describa la imagen')
 
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
-                figure
-                  img(src='@/assets/curso/temas/tema5/img_11.png', alt='Texto que describa la imagen')
-              .col-md-6.text-left
+              .col-md-6.order-2.order-md-2
                 h3 Germinación
                 p.mb-0 Ocurre entre los 15 y 20 días después de la siembra. Aparece el brote y luego las primeras hojas verdaderas. En esta etapa, el viverista debe mantener un riego suave, evitar el exceso de humedad y proteger el brote de plagas. Esta fase marca el inicio del crecimiento activo.
-                
+              .col-md-6.order-1.order-md-1.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/temas/tema5/img_11.png', alt='Texto que describa la imagen')
 
-            .row.align-items-center.flex-column-reverse
-              .col-md-6.mb-4.mb-md-0
+            .row.align-items-center
+              .col-md-6.order-2.order-md-1
                 h3 Desarrollo vegetativo
                 p.mb-0 Durante las semanas siguientes (3 a 8), la plántula desarrolla tallo, hojas y raíces. Se deben mantener condiciones ambientales controladas (temperatura entre 18 y 28 °C, humedad relativa del 70–80 %). Se recomienda aplicar micorrizas al sustrato y Trichoderma como biocontrolador. El riego debe ser frecuente, pero sin saturar. Esta etapa define la fortaleza del patrón.
-            
-              .col-md-6
+              .col-md-6.order-1.order-md-2.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/tema5/img_12.png', alt='Texto que describa la imagen')
 
             .row.align-items-center
-              .col-md-6
-                figure
-                  img(src='@/assets/curso/temas/tema5/img_13.png', alt='Texto que describa la imagen')
-              .col-md-6.mb-4.mb-md-0.text-left
+              .col-md-6.order-2.order-md-2
                 h3 Injertación
                 p.mb-0 Al alcanzar unos 30–35 cm de altura, con tallo lignificado y buen calibre, se realiza el injerto en cuña o terminal. Se usa una yema o púa de una variedad deseada y se cubre con cinta plástica para proteger la unión. Es fundamental realizar la injertación en condiciones de sombra parcial y baja evaporación.
-            
+              .col-md-6.order-1.order-md-1.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/temas/tema5/img_13.png', alt='Texto que describa la imagen')
+
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.order-2.order-md-1
                 h3 Posinjerto
                 p.mb-0 Después de la injertación, la plántula se mantiene entre 8 y 10 semanas en condiciones protegidas: ventilación progresiva, corte parcial de la bolsa protectora, y exposición gradual al sol. Se continúa con el monitoreo de sanidad y se retira la cinta cuando el injerto esté bien prendido.
-            
-              .col-md-6
+              .col-md-6.order-1.order-md-2.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/tema5/img_14.png', alt='Texto que describa la imagen')
 
+                  
       .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
         .col-lg-4.col-md-12.mb-4
           figure

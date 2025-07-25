@@ -10,9 +10,9 @@
     .color-adicional-1-10.bg-hojas.tarjeta.mb-2.position-relative.box-icons
       img(src="@/assets/curso/temas/tema1/img_15.png", alt="alt").w-auto.first
       .row.align-items-center.p-4
-        .col-12.col-lg-2
+        .col-12.col-lg-3
             img(src='@/assets/curso/temas/tema4/img_01.png', alt='Imagen decorativa').w-auto.mx-auto.position-relative
-        .col-12.col-lg-9
+        .col-12.col-lg-8
           p.mb-0 La producción del aguacate está estrechamente ligada a las condiciones ecológicas y climáticas del entorno, ya que influyen directamente en el desarrollo de la planta, la calidad del fruto y el rendimiento del cultivo. Comprender la clasificación ecológica, los requerimientos climáticos, la altitud óptima, las características del suelo y las prácticas de fertilización es clave para seleccionar adecuadamente las zonas de cultivo. Estos factores permiten adaptar las variedades a cada región, mejorar la eficiencia agronómica y garantizar una producción sostenible en el tiempo.
     
     separador
