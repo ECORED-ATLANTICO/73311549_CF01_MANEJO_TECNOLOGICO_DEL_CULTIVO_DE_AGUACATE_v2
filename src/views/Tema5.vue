@@ -114,7 +114,7 @@
                   img(src='@/assets/curso/temas/tema5/img_10.png', alt='Texto que describa la imagen')
 
             .row.align-items-center
-              .col-md-6.order-2.order-md-2
+              .col-md-6.order-2.order-md-2.text-left
                 h3 Germinación
                 p.mb-0 Ocurre entre los 15 y 20 días después de la siembra. Aparece el brote y luego las primeras hojas verdaderas. En esta etapa, el viverista debe mantener un riego suave, evitar el exceso de humedad y proteger el brote de plagas. Esta fase marca el inicio del crecimiento activo.
               .col-md-6.order-1.order-md-1.mb-4.mb-md-0
@@ -130,7 +130,7 @@
                   img(src='@/assets/curso/temas/tema5/img_12.png', alt='Texto que describa la imagen')
 
             .row.align-items-center
-              .col-md-6.order-2.order-md-2
+              .col-md-6.order-2.order-md-2.text-left
                 h3 Injertación
                 p.mb-0 Al alcanzar unos 30–35 cm de altura, con tallo lignificado y buen calibre, se realiza el injerto en cuña o terminal. Se usa una yema o púa de una variedad deseada y se cubre con cinta plástica para proteger la unión. Es fundamental realizar la injertación en condiciones de sombra parcial y baja evaporación.
               .col-md-6.order-1.order-md-1.mb-4.mb-md-0
