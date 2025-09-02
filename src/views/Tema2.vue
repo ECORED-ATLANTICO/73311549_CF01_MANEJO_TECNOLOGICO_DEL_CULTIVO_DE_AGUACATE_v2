@@ -34,7 +34,7 @@
           span Zonas aptas para el aguacate 
 
         .tabla-a.tabla-verde
-          table
+          table.w-100
             caption <strong>Fuente:</strong> SENA, 2025.
             thead
               tr
@@ -68,7 +68,7 @@
                 td Óptimo para Hass y fuerte.
                  
     .cajon.color-adicional-1-10.p-4.mb-3
-      p.mb-0 La taxonomía del aguacate permite identificarlo como una planta frutal de origen tropical, perteneciente a un grupo de árboles perennes con hojas simples, flores pequeñas y frutos con una sola semilla. Su clasificación científica agrupa al aguacate en los siguientes niveles:
+      p.mb-0 Estas zonas presentan equilibrio entre temperatura y humedad, favoreciendo la floración, el desarrollo del fruto y reduciendo el riesgo de enfermedades por exceso de agua.
 
     separador
 
@@ -78,7 +78,7 @@
     p.mb-5 El aguacate es una especie frutal altamente influenciada por el clima. Su crecimiento, floración, cuajado del fruto y calidad final dependen en gran medida de variables como la temperatura, la precipitación y la humedad relativa. Un clima inadecuado puede generar estrés fisiológico, baja productividad, caída de flores o mayor susceptibilidad a enfermedades. Las condiciones óptimas son:
     
     TabsB.color-acento-contenido.mb-3
-      .py-4.py-md-5(titulo="Encuesta de <em>Net Promoter Score</em> (NPS)" :icono="require('@/assets/curso/temas/tema2/img_03.svg')")
+      .py-4.py-md-5(titulo="<b>Temperatura media:</b> entre <b>15 y 30 °C</b>" :icono="require('@/assets/curso/temas/tema2/img_03.svg')")
         .row.px-4.align-items-center
           .col-1
           .col-md-6.mb-4.mb-md-0
@@ -91,7 +91,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img_06.png', alt='Imagen decorativa')
           .col-1
-      .py-4.py-md-5(titulo="Encuesta de satisfacción del producto" :icono="require('@/assets/curso/temas/tema2/img_04.svg')")
+      .py-4.py-md-5(titulo="<b>Precipitación anual:</b> entre <b>1.000 y 1.500 mm</b>" :icono="require('@/assets/curso/temas/tema2/img_04.svg')")
         .row.px-4.align-items-center
           .col-1
           .col-md-6.mb-4.mb-md-0
@@ -99,12 +99,14 @@
               b Precipitación anual: 
               | entre 
               b 1.000 y 1.500 mm, 
-              | distribuida a lo largo del año. El aguacate no tolera el encharcamiento prolongado. Lluvias concentradas en pocos meses aumentan el riesgo de enfermedades radiculares como la Phytophthora cinnamomi. Un buen régimen hídrico mejora el llenado y la calidad del fruto.  
+              | distribuida a lo largo del año. El aguacate no tolera el encharcamiento prolongado. Lluvias concentradas en pocos meses aumentan el riesgo de enfermedades radiculares como la 
+              i Phytophthora cinnamomi. 
+              | Un buen régimen hídrico mejora el llenado y la calidad del fruto.  
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema2/img_07.png', alt='Imagen decorativa')
           .col-1
-      .py-4.py-md-5(titulo="Encuesta de satisfacción del producto" :icono="require('@/assets/curso/temas/tema2/img_05.svg')")
+      .py-4.py-md-5(titulo="<b>Humedad relativa:</b> entre <b>60 % y 80 %</b>" :icono="require('@/assets/curso/temas/tema2/img_05.svg')")
         .row.px-4.align-items-center
           .col-1
           .col-md-6.mb-4.mb-md-0
@@ -241,7 +243,9 @@
             figure
               img(src='@/assets/curso/temas/tema2/img_19.png', alt='Imagen decorativa').w-auto.mx-auto
           .col-12.col-lg-10.p-5
-            p.mb-0 El aguacate requiere una adecuada disponibilidad de macronutrientes como nitrógeno (N), fósforo (P) y potasio (K), así como micronutrientes esenciales como zinc (Zn), boro (B) y hierro (Fe), indispensables para el crecimiento, la floración y el cuajado de frutos. La aplicación complementaria de microorganismos benéficos, como Trichoderma y micorrizas, mejora la absorción de nutrientes y refuerza la salud del sistema radicular
+            p.mb-0 El aguacate requiere una adecuada disponibilidad de macronutrientes como nitrógeno (N), fósforo (P) y potasio (K), así como micronutrientes esenciales como zinc (Zn), boro (B) y hierro (Fe), indispensables para el crecimiento, la floración y el cuajado de frutos. La aplicación complementaria de microorganismos benéficos, como 
+              i Trichoderma 
+              | y micorrizas, mejora la absorción de nutrientes y refuerza la salud del sistema radicular.
     
 
 

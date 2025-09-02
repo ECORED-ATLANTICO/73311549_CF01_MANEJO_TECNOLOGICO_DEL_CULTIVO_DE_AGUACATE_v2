@@ -86,10 +86,14 @@
               p Instrumento que permite medir simultáneamente la temperatura y la humedad relativa del ambiente en el vivero. Ayuda a detectar condiciones extremas que podrían alterar la germinación, el prendimiento del injerto o generar estrés fisiológico en las plántulas. Se recomienda colocarlo a la altura media de las plantas, alejado de corrientes de aire directo.
           .row(titulo="Sensor de humedad del sustrato").align-items-center
             .content-left
-              p Dispositivo que evalúa el nivel de humedad directamente en el sustrato donde crecen las plantas. Su lectura permite ajustar el riego y evitar tanto el déficit como el exceso de agua, previniendo enfermedades como la pudrición radicular. Existen modelos manuales y digitales, con pantallas de lectura o conectividad a apps móviles.
+              p Dispositivo que evalúa el nivel de humedad directamente en el sustrato donde crecen las plantas. Su lectura permite ajustar el riego y evitar tanto el déficit como el exceso de agua, previniendo enfermedades como la pudrición radicular. Existen modelos manuales y digitales, con pantallas de lectura o conectividad a 
+                i apps 
+                | móviles.
           .row(titulo="Medidor de pH digital").align-items-center
             .content-left
-              p Herramienta indispensable para verificar la acidez o alcalinidad del sustrato. El rango óptimo para el aguacate está entre 5.5 y 6.5. Niveles fuera de este margen pueden bloquear nutrientes y afectar el desarrollo radicular. El medidor requiere calibración frecuente con soluciones buffer para asegurar exactitud.
+              p Herramienta indispensable para verificar la acidez o alcalinidad del sustrato. El rango óptimo para el aguacate está entre 5.5 y 6.5. Niveles fuera de este margen pueden bloquear nutrientes y afectar el desarrollo radicular. El medidor requiere calibración frecuente con soluciones 
+                i buffer 
+                | para asegurar exactitud.
           .row(titulo="Luxómetro").align-items-center
             .content-left
               p Mide la intensidad de la luz solar o artificial en el entorno del vivero. Es útil para determinar si la cantidad de luminosidad es adecuada para la etapa vegetativa de las plántulas. El aguacate necesita entre 1.500 y 2.000 lx en vivero. Si la intensidad es demasiado alta, se recomienda instalar mallas de sombra.
@@ -200,7 +204,8 @@
                       b 6. Aplicación de tratamientos
                     ul.bullets
                       li Tipo de producto (fertilizante,     
-                      li Trichoderma, micorrizas).
+                        i Trichoderma, 
+                        | micorrizas).
                       li Dosis, frecuencia y método de aplicación.
                       li Fecha.
                   .col-6.col-md-3.mx-auto

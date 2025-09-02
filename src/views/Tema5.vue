@@ -124,7 +124,9 @@
             .row.align-items-center
               .col-md-6.order-2.order-md-1
                 h3 Desarrollo vegetativo
-                p.mb-0 Durante las semanas siguientes (3 a 8), la plántula desarrolla tallo, hojas y raíces. Se deben mantener condiciones ambientales controladas (temperatura entre 18 y 28 °C, humedad relativa del 70–80 %). Se recomienda aplicar micorrizas al sustrato y Trichoderma como biocontrolador. El riego debe ser frecuente, pero sin saturar. Esta etapa define la fortaleza del patrón.
+                p.mb-0 Durante las semanas siguientes (3 a 8), la plántula desarrolla tallo, hojas y raíces. Se deben mantener condiciones ambientales controladas (temperatura entre 18 y 28 °C, humedad relativa del 70–80 %). Se recomienda aplicar micorrizas al sustrato y 
+                  i Trichoderma 
+                  | como biocontrolador. El riego debe ser frecuente, pero sin saturar. Esta etapa define la fortaleza del patrón.
               .col-md-6.order-1.order-md-2.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/tema5/img_12.png', alt='Texto que describa la imagen')
@@ -156,10 +158,12 @@
             p.mb-0 Durante la fase final del vivero, es fundamental realizar una evaluación visual y técnica de cada planta, considerando criterios agronómicos estandarizados. Esta verificación permite clasificar, seleccionar y descartar material no conforme, evitando pérdidas en campo y garantizando la trazabilidad del proceso productivo.
       
       TabsA.color-primario
-        .tarjeta.color-primario-10.p-4(titulo="Altura (60–120 cm)")
+        .tarjeta.color-primario-10.p-4(titulo="Altura (60-120 cm)")
           .row.mx-auto.align-items-center
             .col-1
             .col-lg-7
+              p 
+                b Altura (60-120 cm)
               p Una planta demasiado baja indica bajo desarrollo, y una demasiado alta puede presentar debilidad estructural. La altura óptima muestra buen equilibrio vegetativo.
             .col-lg-3.mb-4
               figure
@@ -170,6 +174,8 @@
           .row.mx-auto.align-items-center
             .col-1
             .col-lg-7
+              p
+                b Mínimo 15 hojas sanas
               p Hojas completas, con coloración verde uniforme, sin manchas, mordeduras, quemaduras solares ni signos de clorosis o deficiencia nutricional.
             .col-lg-3.mb-4
               figure
@@ -180,6 +186,8 @@
           .row.mx-auto.align-items-center
             .col-1
             .col-lg-7
+              p 
+                b Injerto firme y bien sellado
               p Una planta demasiado baja indica bajo desarrollo, y una demasiado alta puede presentar debilidad estructural. La altura óptima muestra buen equilibrio vegetativo.
             .col-lg-3.mb-4
               figure
@@ -190,6 +198,8 @@
           .row.mx-auto.align-items-center
             .col-1
             .col-lg-7
+              p 
+                b Sin manchas ni deformaciones
               p El tallo debe ser recto, sin curvaturas o daños por manipulación. La planta no debe presentar síntomas visibles de enfermedades fúngicas o bacterianas.
             .col-lg-3.mb-4
               figure
@@ -200,6 +210,8 @@
           .row.mx-auto.align-items-center
             .col-1
             .col-lg-7
+              p 
+                b Raíz en buen estado
               p Aunque no se observa completamente, una raíz sana no debe sobresalir en exceso por la bolsa ni presentar espiralización, pudrición o asfixia.
             .col-lg-3.mb-4
               figure

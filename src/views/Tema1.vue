@@ -18,11 +18,13 @@
     separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_1_1 1.1 Concepto
+      h2#t_1_1 1.1 Origen y taxonomía
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       .col-lg-8.mb-4
-        p.mb-2 El aguacate (Persea americana) es una especie originaria de Mesoamérica, principalmente de las zonas montañosas del sur de México y Guatemala. Su historia se remonta a más de 8.000 años de domesticación, con evidencias fósiles que datan de hace al menos 12.000 años. Esta fruta era parte fundamental en la dieta de culturas antiguas como los mayas y aztecas. Su nombre proviene del náhuatl ahuacatl, en alusión a la forma del fruto.
+        p.mb-2 El aguacate 
+          i (Persea americana) 
+          | es una especie originaria de Mesoamérica, principalmente de las zonas montañosas del sur de México y Guatemala. Su historia se remonta a más de 8.000 años de domesticación, con evidencias fósiles que datan de hace al menos 12.000 años. Esta fruta era parte fundamental en la dieta de culturas antiguas como los mayas y aztecas. Su nombre proviene del náhuatl ahuacatl, en alusión a la forma del fruto.
         .cajon.color-adicional-1-10.p-4
           p.mb-0 La taxonomía del aguacate permite identificarlo como una planta frutal de origen tropical, perteneciente a un grupo de árboles perennes con hojas simples, flores pequeñas y frutos con una sola semilla. Su clasificación científica agrupa al aguacate en los siguientes niveles:
       .col-lg-4.col-md-12.mb-4
@@ -38,27 +40,33 @@
           .row(titulo="Clase")
             .content-left
               p 
-                b Magnoliopsida (Dicotiledóneas)
+                b 
+                  i Magnoliopsida 
+                  | (Dicotiledóneas)
               p El aguacate pertenece al grupo de plantas que se desarrollan a partir de semillas con dos cotiledones. Esto se refleja en su estructura: hojas anchas con nervaduras ramificadas, flores completas y frutos desarrollados con una sola semilla central. 
           .row(titulo="Orden")
             .content-left
               p 
-                b Laurales
+                b 
+                  i Laurales
               p El aguacate forma parte de la familia del laurel, conocida por la presencia de aceites esenciales. Esta familia se distingue por plantas perennes, de follaje denso, flores discretas y gran diversidad ecológica.
           .row(titulo="Familia")
             .content-left
               p 
-                b Lauraceae
+                b 
+                  i Lauraceae
               p El aguacate forma parte de la familia del laurel, conocida por la presencia de aceites esenciales. Esta familia se distingue por plantas perennes, de follaje denso, flores discretas y gran diversidad ecológica.
           .row(titulo="Género")
             .content-left
               p 
-                b Persea
+                b 
+                  i Persea
               p Dentro de este género, el aguacate se relaciona con más de 150 especies tropicales, aunque solo unas pocas son aptas para el consumo humano. Persea se caracteriza por sus frutos grandes con semilla única y alto contenido de lípidos.
           .row(titulo="Especie")
             .content-left
               p 
-                b Persea americana Mill
+                b 
+                  i Persea americana Mill
               p Es la especie domesticada y cultivada por su fruto comestible, cuya pulpa suave, cremosa y rica en grasas saludables lo hace altamente valorado en la alimentación humana y la industria agroalimentaria.
          
     separador

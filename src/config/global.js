@@ -226,21 +226,21 @@ export default {
     {
       tema: 'Generalidades del cultivo de aguacate',
       referencia:
-        'Corporación Colombiana de Investigación Agropecuaria (AGROSAVIA). (2020). Actualización tecnológica y buenas prácticas agrícolas en el cultivo de aguacate Hass.',
+        'Corporación Colombiana de Investigación Agropecuaria (AGROSAVIA). (2020). <em>Actualización tecnológica y buenas prácticas agrícolas en el cultivo de aguacate Hass.</em>',
       tipo: 'PDF',
       link: 'downloads/BernalyDiaz2020.pdf',
     },
     {
       tema: 'Manejo tecnológico del cultivo de aguacate',
       referencia:
-        'AGROSAVIA. (2023). Cultivo de aguacate: Prácticas y recomendaciones de manejo integrado.',
+        'AGROSAVIA. (2023). <em>Cultivo de aguacate: Prácticas y recomendaciones de manejo integrado.</em>',
       tipo: 'Artículo técnico PDF',
       link: 'downloads/digital_informe-asamblea-2024.pdf',
     },
     {
       tema: 'Siembra en campo de aguacate',
       referencia:
-        'Agrovisión. (2023, septiembre 19). ¿Cómo sembrar aguacate en terreno plano? [Video]. YouTube. ',
+        'Agrovisión. (2023, septiembre 19). <em>¿Cómo sembrar aguacate en terreno plano? [Video]. YouTube.</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Wlz9mD6Anco',
     },
@@ -316,19 +316,18 @@ export default {
     {
       referencia:
         'AGROSAVIA. (2020). <em>Actualización tecnológica y buenas prácticas agrícolas en el cultivo de aguacate Hass. Corporación Colombiana de Investigación Agropecuaria.</em>',
-      link:
-        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/37613/AGROSAVIA_AGUACATE_BPA.pdf',
+      link: 'https://repository.agrosavia.co/handle/20.500.12324/36505',
     },
     {
       referencia:
         'AGROSAVIA. (2023). <em>Manejo integrado de plagas de importancia económica y cuarentenaria del cultivo de aguacate. Corporación Colombiana de Investigación Agropecuaria.</em>',
-      link: '',
+      link:
+        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/40455/Ver_Documento_40455.pdf',
     },
     {
       referencia:
         'AGROSAVIA. (s. f.). <em>Ecofisiología del aguacate cv. Hass en el trópico andino colombiano. Corporación Colombiana de Investigación Agropecuaria.</em>',
-      link:
-        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/37720/AGUACATE_PLAGAS_AGROSAVIA.pdf',
+      link: 'https://repository.agrosavia.co/handle/20.500.12324/36505',
     },
     {
       referencia:
