@@ -78,7 +78,7 @@
     p.mb-5 El aguacate es una especie frutal altamente influenciada por el clima. Su crecimiento, floración, cuajado del fruto y calidad final dependen en gran medida de variables como la temperatura, la precipitación y la humedad relativa. Un clima inadecuado puede generar estrés fisiológico, baja productividad, caída de flores o mayor susceptibilidad a enfermedades. Las condiciones óptimas son:
     
     TabsB.color-acento-contenido.mb-3
-      .py-4.py-md-5(titulo="<b>Temperatura media:</b> entre <b>15 y 30 °C</b>" :icono="require('@/assets/curso/temas/tema2/img_03.svg')")
+      .py-4.py-md-5(titulo="<b>Temperatura media</b>" :icono="require('@/assets/curso/temas/tema2/img_03.svg')")
         .row.px-4.align-items-center
           .col-1
           .col-md-6.mb-4.mb-md-0
@@ -91,7 +91,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img_06.png', alt='Imagen decorativa')
           .col-1
-      .py-4.py-md-5(titulo="<b>Precipitación anual:</b> entre <b>1.000 y 1.500 mm</b>" :icono="require('@/assets/curso/temas/tema2/img_04.svg')")
+      .py-4.py-md-5(titulo="<b>Precipitación anual</b>" :icono="require('@/assets/curso/temas/tema2/img_04.svg')")
         .row.px-4.align-items-center
           .col-1
           .col-md-6.mb-4.mb-md-0
@@ -106,7 +106,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img_07.png', alt='Imagen decorativa')
           .col-1
-      .py-4.py-md-5(titulo="<b>Humedad relativa:</b> entre <b>60 % y 80 %</b>" :icono="require('@/assets/curso/temas/tema2/img_05.svg')")
+      .py-4.py-md-5(titulo="<b>Humedad relativa</b>" :icono="require('@/assets/curso/temas/tema2/img_05.svg')")
         .row.px-4.align-items-center
           .col-1
           .col-md-6.mb-4.mb-md-0
@@ -167,7 +167,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/img_11.svg", alt="alt")
           .crd_hover_txt--body.text-center
-            h5.mb-3 Texturas 	
+            h5.mb-3 Textura
             p.mb-2 Franca o franco-arenosa, que permita un buen drenaje y retención moderada de humedad.
 
       .col-xl-3.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0

@@ -161,18 +161,68 @@
     width: 100%
     height: auto
     position: absolute
+
     &.first
       top: -20px
       left: 0
-      @media (max-width: $bp-max-xs)
+
+      // XS: hasta 575px
+      @media (max-width: 575px)
         top: -40px
         left: -30px
+
+      // SM: 576px–767px
+      @media (min-width: 576px) and (max-width: 767px)
+        top: -35px
+        left: -25px
+
+      // MD: 768px–991px
+      @media (min-width: 768px) and (max-width: 991px)
+        top: -30px
+        left: -20px
+
+      // LG: 992px–1199px
+      @media (min-width: 992px) and (max-width: 1199px)
+        top: -25px
+        left: -15px
+
+      // XL: 1200px–1399px
+      @media (min-width: 1200px) and (max-width: 1399px)
+        top: -20px
+        left: -10px
+
+      // XXL: 1400px en adelante
+      @media (min-width: 1400px)
+        top: -15px
+        left: -5px
+
     &.second
       bottom: -20px
       right: 0
-      @media (max-width: $bp-max-xs)
+
+      @media (max-width: 575px)
         bottom: -40px
         right: -40px
+
+      @media (min-width: 576px) and (max-width: 767px)
+        bottom: -35px
+        right: -35px
+
+      @media (min-width: 768px) and (max-width: 991px)
+        bottom: -30px
+        right: -30px
+
+      @media (min-width: 992px) and (max-width: 1199px)
+        bottom: -25px
+        right: -25px
+
+      @media (min-width: 1200px) and (max-width: 1399px)
+        bottom: -20px
+        right: -20px
+
+      @media (min-width: 1400px)
+        bottom: -15px
+        right: -15px
 
 // -------------- Tablas
 .tabla-a table
@@ -234,10 +284,19 @@
 figcaption
   font-weight: normal
 
+table
+  caption
+    font-weight: normal
+
 .img-outside
   position: absolute
   left: 50px
   bottom: 0
+
+  @media (min-width: 577px) and (max-width: 767px)
+    position: relative
+    left: 10px
+    bottom: -15px
 
   // Móviles <768px
   @media (max-width: $bp-max-xs)
@@ -255,7 +314,7 @@ figcaption
   @media (min-width: 769px) and (max-width: $bp-max-lg)
     position: relative
     left: 20px
-    bottom: -38px
+    bottom: -18px
 
   // XL: 1200px a 1400px
   @media (min-width: $bp-min-xl) and (max-width: $bp-max-xl)

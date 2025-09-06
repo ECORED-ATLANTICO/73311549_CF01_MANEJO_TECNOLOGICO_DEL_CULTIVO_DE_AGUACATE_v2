@@ -24,7 +24,7 @@
           img(src='@/assets/curso/intro/img_01.png', alt='Imagen decorativa')
    
     .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/5d_qM71avJY?si=bSS_uH5wlz4ana1F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/dAy1TmpEh-A?si=aaLv6HCDHLed4Vxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     figcaption Nota: Sena (2024).  
 
 </template>

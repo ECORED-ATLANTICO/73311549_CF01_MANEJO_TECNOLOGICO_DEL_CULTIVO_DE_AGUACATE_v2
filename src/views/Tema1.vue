@@ -24,7 +24,9 @@
       .col-lg-8.mb-4
         p.mb-2 El aguacate 
           i (Persea americana) 
-          | es una especie originaria de Mesoamérica, principalmente de las zonas montañosas del sur de México y Guatemala. Su historia se remonta a más de 8.000 años de domesticación, con evidencias fósiles que datan de hace al menos 12.000 años. Esta fruta era parte fundamental en la dieta de culturas antiguas como los mayas y aztecas. Su nombre proviene del náhuatl ahuacatl, en alusión a la forma del fruto.
+          | es una especie originaria de Mesoamérica, principalmente de las zonas montañosas del sur de México y Guatemala. Su historia se remonta a más de 8.000 años de domesticación, con evidencias fósiles que datan de hace al menos 12.000 años. Esta fruta era parte fundamental en la dieta de culturas antiguas como los mayas y aztecas. Su nombre proviene del náhuatl 
+          i ahuacatl, 
+          | en alusión a la forma del fruto.
         .cajon.color-adicional-1-10.p-4
           p.mb-0 La taxonomía del aguacate permite identificarlo como una planta frutal de origen tropical, perteneciente a un grupo de árboles perennes con hojas simples, flores pequeñas y frutos con una sola semilla. Su clasificación científica agrupa al aguacate en los siguientes niveles:
       .col-lg-4.col-md-12.mb-4
@@ -49,7 +51,7 @@
               p 
                 b 
                   i Laurales
-              p El aguacate forma parte de la familia del laurel, conocida por la presencia de aceites esenciales. Esta familia se distingue por plantas perennes, de follaje denso, flores discretas y gran diversidad ecológica.
+              p Como árbol del orden laurales, el aguacate comparte rasgos con otras especies leñosas adaptadas a ambientes tropicales. Su madera es suave, y tanto sus hojas como su fruto presentan compuestos aromáticos característicos del grupo.
           .row(titulo="Familia")
             .content-left
               p 
@@ -73,7 +75,8 @@
 
     .titulo-segundo.color-acento-contenido
       h2#t_1_2 1.2 Morfología de la planta
-   
+
+    p.mb-5 La estructura del aguacate presenta características que determinan su comportamiento frente al clima, el suelo y las prácticas de cultivo. Conocer estas particularidades permite aplicar un manejo técnico más preciso y adaptado a las condiciones del entorno.
     .row.justify-content-center.align-items-center.my-3.mb-0(data-aos="zoom-in")
       .col-md-7.col-lg-4.col-10
         figure(data-aos="zoom-in")
@@ -215,7 +218,7 @@
           .row(titulo="Hass (Tipo A)")
             .col-1
             .col-12.col-lg-10
-              p Variedad líder en exportación. Fruto ovalado con piel gruesa y rugosa que se oscurece al madurar. Alta vida útil, pulpa cremosa y sabor suave. Excelente comportamiento poscosecha. Deriva de la raza guatemalteca.
+              p Variedad, líder en exportación. Fruto ovalado con piel gruesa y rugosa que se oscurece al madurar. Alta vida útil, pulpa cremosa y sabor suave. Excelente comportamiento poscosecha. Deriva de la raza guatemalteca.
             .col-1
           .row(titulo="Fuerte (Tipo B)").align-items-center
             .col-1

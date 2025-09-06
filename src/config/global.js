@@ -316,18 +316,18 @@ export default {
     {
       referencia:
         'AGROSAVIA. (2020). <em>Actualización tecnológica y buenas prácticas agrícolas en el cultivo de aguacate Hass. Corporación Colombiana de Investigación Agropecuaria.</em>',
-      link: 'https://repository.agrosavia.co/handle/20.500.12324/36505',
+      link: 'http://hdl.handle.net/20.500.12324/36505',
     },
     {
       referencia:
         'AGROSAVIA. (2023). <em>Manejo integrado de plagas de importancia económica y cuarentenaria del cultivo de aguacate. Corporación Colombiana de Investigación Agropecuaria.</em>',
       link:
-        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/40455/Ver_Documento_40455.pdf',
+        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/40455/Ver_Documento_40455.pdf?isAllowed=y&sequence=1',
     },
     {
       referencia:
         'AGROSAVIA. (s. f.). <em>Ecofisiología del aguacate cv. Hass en el trópico andino colombiano. Corporación Colombiana de Investigación Agropecuaria.</em>',
-      link: 'https://repository.agrosavia.co/handle/20.500.12324/36505',
+      link: 'http://hdl.handle.net/20.500.12324/36505',
     },
     {
       referencia:

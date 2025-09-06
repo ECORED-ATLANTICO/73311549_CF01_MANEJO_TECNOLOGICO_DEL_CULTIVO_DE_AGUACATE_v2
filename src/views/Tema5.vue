@@ -176,7 +176,7 @@
             .col-lg-7
               p
                 b Mínimo 15 hojas sanas
-              p Hojas completas, con coloración verde uniforme, sin manchas, mordeduras, quemaduras solares ni signos de clorosis o deficiencia nutricional.
+              p Hojas completas, con coloración verde uniforme, sin manchas, mordeduras, quemaduras solares, ni signos de clorosis o deficiencia nutricional.
             .col-lg-3.mb-4
               figure
                 img(src='@/assets/curso/temas/tema5/img_17.svg', alt='Texto que describa la imagen')
@@ -188,7 +188,7 @@
             .col-lg-7
               p 
                 b Injerto firme y bien sellado
-              p Una planta demasiado baja indica bajo desarrollo, y una demasiado alta puede presentar debilidad estructural. La altura óptima muestra buen equilibrio vegetativo.
+              p La unión entre patrón e injerto debe estar completamente cerrada, sin apertura ni exudados. Debe evidenciarse una cicatrización total y sin síntomas de estrés.
             .col-lg-3.mb-4
               figure
                 img(src='@/assets/curso/temas/tema5/img_18.svg', alt='Texto que describa la imagen')

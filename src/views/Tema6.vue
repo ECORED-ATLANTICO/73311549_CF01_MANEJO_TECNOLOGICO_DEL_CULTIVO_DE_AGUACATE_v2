@@ -13,7 +13,7 @@
         .col-5.col-md-2.mx-auto.mx-lg-0
           img(src="@/assets/curso/temas/tema6/img_01.png", alt="alt").w-auto.position-relative
         .col-12.col-md-9.p-4
-          p.mb-0 El uso de instrumentos adecuados y el control riguroso de variables en el vivero son fundamentales para garantizar la calidad del material vegetal. A través del monitoreo técnico y la medición de condiciones ambientales, junto con el registro sistemático de cada etapa del proceso, se logra mantener la trazabilidad, optimizar recursos y prevenir desviaciones que afecten la sanidad y el desarrollo de las plántulas.
+          p.mb-0 El uso de instrumentos adecuados y el control riguroso de variables en el vivero, son fundamentales para garantizar la calidad del material vegetal. A través del monitoreo técnico y la medición de condiciones ambientales, junto con el registro sistemático de cada etapa del proceso, se logra mantener la trazabilidad, optimizar recursos y prevenir desviaciones que afecten la sanidad y el desarrollo de las plántulas.
         img(src="@/assets/curso/temas/tema5/img_21.png", alt="alt").w-auto.second
 
     separador
