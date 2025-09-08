@@ -83,7 +83,7 @@
               .col-12.col-md-12.col-lg-6.order-1.order-lg-2.mb-md-0.mx-auto
                 h4
                   b Paso 6. Llenado de bolsas y distribución
-                p Utilizar bolsas plásticas de 40–45 cm de altura y mínimo 20 cm de diámetro. Llenarlas uniformemente con el sustrato, y ubicarlas sobre las camas dejando pasillos para el acceso.
+                p Utilizar bolsas plásticas de 40-45 cm de altura y mínimo 20 cm de diámetro. Llenarlas uniformemente con el sustrato, y ubicarlas sobre las camas, dejando pasillos para el acceso.
 
             .row.align-items-center.mx-auto
               .col-12.col-md-6.col-lg-5.order-2.order-lg-1.mx-auto

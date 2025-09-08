@@ -1,14 +1,15 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+
     
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       .col-md-6.col-lg-4.col-8.mb-3.mb.lg-0
         figure
           img(src='@/assets/curso/img_01.png', alt='Imagen decorativa').mx-auto
       .col-lg-8
-        p El componente formativo “Estrategia de producción y propagación del aguacate” permite comprender los aspectos técnicos del cultivo, desde su origen y adaptación ecológica hasta su propagación y manejo en vivero. Se inicia con el estudio de las generalidades botánicas y su clasificación ecológica, así como sus requerimientos climáticos y edáficos. Posteriormente, se profundiza en la selección del material vegetal y los métodos de propagación, lo que permite establecer su importancia en la calidad genética y productiva. Asimismo, se analizan criterios de planeación, proporcionando herramientas para responder a la demanda del mercado. Se presentan factores que influyen en el desarrollo en vivero, así como el uso de instrumentos, registros y trazabilidad. La documentación aborda prácticas sostenibles y bioseguridad. Para fortalecer estos conceptos, se detallan aspectos del monitoreo técnico y control del proceso. Finalmente, se analiza la importancia de la calidad de plántulas para una producción exitosa .
+        p El componente formativo “Estrategia de producción y propagación del aguacate” ofrece una aproximación integral a los conocimientos fundamentales sobre el cultivo, propagación y manejo técnico del aguacate. Este módulo analiza detalladamente la planificación productiva y el análisis del entorno agroecológico, resaltando su importancia en cuanto a la adaptación, rendimiento y sostenibilidad. Asimismo, se estudian los métodos de propagación en vivero y el uso de material vegetal certificado. La propuesta profundiza en el manejo de plántulas, así como en el uso de instrumentos técnicos. Además, se destacan prácticas de trazabilidad, junto con criterios de calidad, enfatizando su aplicación para asegurar una producción eficiente y competitiva.
 
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
