@@ -277,7 +277,7 @@
               img(src="@/assets/curso/temas/tema1/img_30.png", alt="alt")
           .crd_hover_txt--body.text-center
             h5.mb-3 Semillas certificadas 	
-            p.mb-2 utilizar solo semillas o yemas provenientes de árboles madre sanos y trazables, libres de patógenos.
+            p.mb-2 utilizar solo semillas o yemas provenientes de árboles, madre sanos y trazables, libres de patógenos.
 
       .col-xl-3.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")

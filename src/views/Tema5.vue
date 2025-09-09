@@ -153,7 +153,7 @@
           figure
             img(src='@/assets/curso/temas/tema5/img_15.png', alt='Imagen decorativa')
         .col-lg-8.mb-4
-          p.mb-2 La calidad de la plántula de aguacate es un factor determinante en el éxito del establecimiento del cultivo en campo. Una plántula que cumpla con los parámetros físicos y sanitarios mínimos asegura mayor tasa de prendimiento, menor estrés postransplante, mayor uniformidad de desarrollo y, en el largo plazo, una mejor productividad.
+          p.mb-2 La calidad de la plántula de aguacate es un factor determinante en el éxito del establecimiento del cultivo en campo. Una plántula que cumpla con los parámetros físicos y sanitarios mínimos asegura mayor tasa de prendimiento, menor estrés postrasplante, mayor uniformidad de desarrollo y, en el largo plazo, una mejor productividad.
           .cajon.color-adicional-1-10.p-4
             p.mb-0 Durante la fase final del vivero, es fundamental realizar una evaluación visual y técnica de cada planta, considerando criterios agronómicos estandarizados. Esta verificación permite clasificar, seleccionar y descartar material no conforme, evitando pérdidas en campo y garantizando la trazabilidad del proceso productivo.
       
