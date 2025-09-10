@@ -22,8 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> desarrollar e implementar una estrategia integral de producción y propagación del aguacate que optimice la calidad de los materiales de siembra, maximice la productividad y promueva prácticas sostenibles, asegurando así el éxito del cultivo a largo plazo.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
