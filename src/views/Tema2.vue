@@ -34,7 +34,7 @@
           span Zonas aptas para el aguacate 
 
         .tabla-a.tabla-verde
-          table.w-100
+          table
             caption <strong>Fuente:</strong> SENA, 2025.
             thead
               tr

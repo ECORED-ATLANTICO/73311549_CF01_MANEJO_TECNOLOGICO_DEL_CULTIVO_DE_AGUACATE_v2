@@ -316,7 +316,8 @@ export default {
     {
       referencia:
         'AGROSAVIA. (2020). <em>Actualización tecnológica y buenas prácticas agrícolas en el cultivo de aguacate Hass. Corporación Colombiana de Investigación Agropecuaria.</em>',
-      link: 'http://hdl.handle.net/20.500.12324/36505',
+      link:
+        'https://repository.agrosavia.co/items/a0258669-66b2-414e-ab7f-72cfdd3cdfd1',
     },
     {
       referencia:
